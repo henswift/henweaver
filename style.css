@@ -7,7 +7,7 @@ Link Hover Color - Coral
 
 /* Trying to set 1 em */
 html {
-  font-size: 16px;
+  font-size: 12px;
   color: #FF4500;
   background-color: #000000;
 }
@@ -34,15 +34,22 @@ html a:hover {
   /* Nav Bar */
   #navigation {
     display: flex;
-    border: solid 2px red;
     padding: 0em 1em 0em 1em;
     align-items: center;
-    justify-content: space-around;
+  }
+
+  .max-width {
+    max-width: 1300px;
+    border: solid 2px gold;
+    margin: auto;
+  }
+
+  .side-container {
+    flex-grow: 1;
   }
 
   #navigation-logo img {
-    border: solid 2px green;
-    height: 90px;
+    height: 70px;
     padding: 10px;
   }
 
@@ -52,26 +59,30 @@ html a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
 
   #navigation-social {
     border: solid 2px purple;
-    padding: 1em;
-    flex-grow: 1;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
+    flex-grow: 1;
   }
 
   #navigation-menu {
     border: solid 2px pink;
-    padding: 1em;
-    flex-grow: 1;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
+    flex-grow: 1;
   }
-
+.headerbutton {
+  text-transform: capitalize;
+  padding: .2em;
+  margin: .5em;
+  border: solid 2px red;
+}
 
 
 
