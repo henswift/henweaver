@@ -36,12 +36,14 @@ html a:hover {
     display: flex;
     padding: 0em 1em 0em 1em;
     align-items: center;
+    max-width: 1300px;
+    margin: auto;
   }
 
   .max-width {
-    max-width: 1300px;
-    border: solid 2px gold;
-    margin: auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
+    position: fixed;
+    width: 100%;
   }
 
   .side-container {
@@ -54,7 +56,6 @@ html a:hover {
   }
 
   #navigation-logo {
-    border: solid 2px white;
     width: 8em;
     display: flex;
     justify-content: center;
@@ -63,7 +64,6 @@ html a:hover {
   }
 
   #navigation-social {
-    border: solid 2px purple;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -71,7 +71,6 @@ html a:hover {
   }
 
   #navigation-menu {
-    border: solid 2px pink;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -81,9 +80,11 @@ html a:hover {
   text-transform: capitalize;
   padding: .2em;
   margin: .5em;
-  border: solid 2px red;
 }
 
+#header {
+  padding-top: 7em;
+}
 
 
 
