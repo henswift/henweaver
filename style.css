@@ -5,10 +5,17 @@ Text Color - Orange - #FF4500
 Link Hover Color - Coral
 */
 
+/* Pulling in the self hosted font */
+@font-face {
+    font-family: 'Russo One';
+    src: url(RussoOne-Regular.ttf);
+}
+
 /* Trying to set 1 em */
 html {
   font-size: 12px;
   color: #FF4500;
+  font-family: 'Russo One';
   background-color: #000000;
 }
 
@@ -80,6 +87,7 @@ html a:hover {
   text-transform: capitalize;
   padding: .2em;
   margin: .5em;
+  font-size: 1.5em;
 }
 
 #header {
