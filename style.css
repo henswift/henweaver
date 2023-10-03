@@ -11,7 +11,7 @@ Link Hover Color - Coral
     src: url(RussoOne-Regular.ttf);
 }
 
-/* Trying to set 1 em */
+/* Setting the font size so that I can use the em */
 html {
   font-size: 12px;
   color: #FF4500;
@@ -19,6 +19,7 @@ html {
   background-color: #000000;
 }
 
+/* Styles for the entire site, aka html */
 html a {
   color: #FF4500;
   text-decoration: none;
@@ -30,11 +31,28 @@ html a:hover {
 }
 
 /* CSS Reset */
-
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
   }
+
+/* All Media Queries */
+
+/* Tablet */
+@media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width: 1024px) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+
 
 /* Home Page */
 
@@ -87,7 +105,7 @@ html a:hover {
   text-transform: capitalize;
   padding: .2em;
   margin: .5em;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 #header {
