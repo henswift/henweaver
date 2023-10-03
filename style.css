@@ -4,3 +4,9 @@ Background Color - Black
 Text Color - Orange
 */
 
+/* CSS Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+  }
