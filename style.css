@@ -16,3 +16,11 @@ Text Color - Orange - #FF4500
     background-color: #000000;
     color: #FF4500;
   }
+
+  /* Nav Bar */
+  #navigation {
+    display: flex;
+    border: solid 2px red;
+  }
+
+  
