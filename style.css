@@ -1,7 +1,7 @@
 
 /* My Universal Styles
-Background Color - Black
-Text Color - Orange
+Background Color - Black - #000000
+Text Color - Orange - #FF4500
 */
 
 /* CSS Reset */
@@ -9,4 +9,10 @@ Text Color - Orange
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
+  }
+
+/* Home Page */
+  #entiresite {
+    background-color: #000000;
+    color: #FF4500;
   }
