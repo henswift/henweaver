@@ -2,7 +2,25 @@
 /* My Universal Styles
 Background Color - Black - #000000
 Text Color - Orange - #FF4500
+Link Hover Color - Coral
 */
+
+/* Trying to set 1 em */
+html {
+  font-size: 16px;
+  color: #FF4500;
+  background-color: #000000;
+}
+
+html a {
+  color: #FF4500;
+  text-decoration: none;
+}
+
+html a:hover {
+  text-decoration: none;
+  color: coral;
+}
 
 /* CSS Reset */
 
@@ -12,15 +30,54 @@ Text Color - Orange - #FF4500
   }
 
 /* Home Page */
-  #entiresite {
-    background-color: #000000;
-    color: #FF4500;
-  }
 
   /* Nav Bar */
   #navigation {
     display: flex;
     border: solid 2px red;
+    padding: 0em 1em 0em 1em;
+    align-items: center;
+    justify-content: space-around;
   }
 
-  
+  #navigation-logo img {
+    border: solid 2px green;
+    height: 90px;
+    padding: 10px;
+  }
+
+  #navigation-logo {
+    border: solid 2px white;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navigation-social {
+    border: solid 2px purple;
+    padding: 1em;
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  #navigation-menu {
+    border: solid 2px pink;
+    padding: 1em;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+
+
+
+
+
+
+  #footer {
+    height: 4000px;
+  }
