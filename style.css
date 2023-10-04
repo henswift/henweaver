@@ -55,7 +55,7 @@ html a:hover {
 
 
 /* Home Page */
-
+  
   /* Nav Bar */
   #navigation {
     display: flex;
@@ -63,23 +63,21 @@ html a:hover {
     align-items: center;
     max-width: 1300px;
     margin: auto;
+    z-index: 50;
   }
-
   .max-width {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
     position: fixed;
     width: 100%;
+    z-index: 52;
   }
-
   .side-container {
     flex-grow: 1;
   }
-
   #navigation-logo img {
     height: 70px;
     padding: 10px;
   }
-
   #navigation-logo {
     width: 8em;
     display: flex;
@@ -87,31 +85,38 @@ html a:hover {
     align-items: center;
     margin: auto;
   }
-
   #navigation-social {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-grow: 1;
   }
-
   #navigation-menu {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-grow: 1;
   }
-.headerbutton {
-  text-transform: capitalize;
-  padding: .2em;
-  margin: .5em;
-  font-size: 1em;
-}
+  .headerbutton {
+    text-transform: capitalize;
+    padding: .2em;
+    margin: .5em;
+    font-size: 1em;
+    }
 
-#header {
-  padding-top: 7em;
-}
-
+  /* Hero Text aka H1 */
+  #header {
+    padding: 8em 1em 6em 1em;
+  }
+  #header-txt {
+    font-size: 2.8em;
+  }
+  #hero-image img {
+    height: 20em;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    z-index: 1;
+  }
 
 
 
