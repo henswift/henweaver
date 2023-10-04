@@ -129,6 +129,10 @@ html a:hover {
     #header {
         max-width: 1300px;
         flex-direction: row;
+        padding: 8em 1em 5em 1em;
+    }
+    #hero-image {
+      padding: 0;
     }
   }
 
