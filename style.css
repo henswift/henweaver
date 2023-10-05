@@ -112,15 +112,78 @@ html a:hover {
     justify-content: center;
   }
 
-  /* Check out my work section */
-  #
+  /* Read More about me section */
+  #about-me {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5rem 1rem 5rem 1rem;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    gap: 2rem;
+  }
+  #about-me-button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-me-button a {
+    padding: .3rem 1rem .3rem 1rem;
+    background-color: #000000;
+    transition: transform 0.3s ease;
+    border-radius: 3px;
+  }
+  #about-me-button a:hover {
+    transform: scale(1.1);
+    border: solid 1px coral;
+  }
+  #about-me-txt {
+    flex: 1;
+    justify-content: center;
+  }
+  .window-2-width {
+    background-color: #333333;
+  }
 
+  /* See My work Section */
+  #my-work {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1rem 5rem 1rem;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    gap: 2rem;
+  }
+  #my-work-link {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #my-work-link a {
+    padding: .3rem 1rem .3rem 1rem;
+    background-color: #202020;
+    transition: transform 0.3s ease;
+    border-radius: 3px;
+  }
+  #my-work-link a:hover {
+    transform: scale(1.1);
+    border: solid 1px coral;
+  }
 /* All Media Queries */
 
 /* Tablet */
 @media (min-width: 768px) {
     html {
       font-size: 16px;
+    }
+    #about-me {
+      flex-direction: row;
+    }
+    #my-work {
+      flex-direction: row;
     }
   }
   
@@ -134,8 +197,17 @@ html a:hover {
         flex-direction: row;
         padding: 8rem 1rem 5rem 1rem;
     }
+    #hero-txt {
+      padding-right: 4rem;
+    }
     #hero-image {
       padding: 0;
+    }
+    #about-me {
+      flex-direction: row;
+    }
+    #my-work {
+      flex-direction: row;
     }
   }
 
