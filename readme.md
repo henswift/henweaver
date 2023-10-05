@@ -1,1 +1,1 @@
-My Personal Site. ALl the good stuff. 
+My Personal Site. All the good stuff. 
