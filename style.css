@@ -172,6 +172,28 @@ html a:hover {
     transform: scale(1.1);
     border: solid 1px coral;
   }
+
+  /* Footer */
+  #footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1rem 5rem 1rem;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    gap: 2rem;
+  }
+  .window-4-width {
+    background-color: #202020;
+    border-top: 2px solid #ff6101;
+  }
+  #my-work-link {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 /* All Media Queries */
 
 /* Tablet */
@@ -211,6 +233,3 @@ html a:hover {
     }
   }
 
-  #footer {
-    height: 4000px;
-  }
