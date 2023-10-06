@@ -182,14 +182,27 @@ html a:hover {
     max-width: 1300px;
     margin: auto;
     gap: 2rem;
+    border-top: solid 3px #ff6101;
   }
   .window-4-width {
     background-color: #202020;
-    border-top: 2px solid #ff6101;
   }
-  #my-work-link {
-    flex: 1;
+  #footer-socials {
+    padding: 1rem 0rem 1rem 0rem;
     display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer-h1 {
+    border-bottom: solid 2px #ff6101;
+  }
+  #menu-section {
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
     justify-content: center;
     align-items: center;
   }
@@ -206,6 +219,11 @@ html a:hover {
     }
     #my-work {
       flex-direction: row;
+    }
+    #footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
   }
   
@@ -230,6 +248,11 @@ html a:hover {
     }
     #my-work {
       flex-direction: row;
+    }
+    #footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
   }
 
