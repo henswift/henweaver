@@ -4,6 +4,8 @@ Background Color - Black - #000000
 Secondary Background Color - #202020
 Text Color - Orange - #ff6101
 Link Hover Color - Coral
+
+@import for pulling in the other css files. 
 */
 
 /* Pulling in the self hosted font */
